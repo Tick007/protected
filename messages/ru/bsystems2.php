@@ -1,0 +1,30 @@
+<?php 
+return array(
+        'Catalog'=>'Каталог',
+        'We offer our service in lorem ipsum dolor sit amet, consectetur'=>'We offer our service in lorem ipsum dolor sit amet, consectetur',
+		'Verification code' => 'Проверочный код',
+		'Name' => 'Имя',
+		'Subject' => 'Тема',
+		'Message' => 'Сообщение',
+		'E-mail'=>'Электронная почта',
+        'Privateroom'=>'Личный кабинет',
+		'Home'=>'Главная',
+        'Total'=>'Всего',
+        'Confirm'=>'Оформить',
+        'Order confirmation'=>'Подтверждение заказа',
+		'About'=>'О сайте',
+        'Login'=>'Логин',
+         'Username'=>'Логин',
+        'Password'=>'Пароль',
+        'Remember me'=>'Запомнить меня',
+		'Contact us'=>'Написать нам',
+		'Feedback'=>'Обратная связь',
+		'refresh'=>'обновить',
+		'Send'=>'Отправить',
+		'Feel free to send us any compliments, complaints, questions or whatever. We will try to respond as soon as possible'=>'Отправляйте нам свои пожелания, жалобы, вопросы или всё, что угодно. Мы постараемся ответить Вам как можно скорее',
+		'Encrypts what No other can!'=>'Шифрует то, что не могут другие!',
+		'application for data protection'=>'мобильное приложение для защиты данных',
+		'Thank you for contacting us. We will respond to you as soon as possible.'=>'Спасибо за запрос. Мы постараемся ответить Вам как можно скорее',
+        'Add to cart'=>'В корзину'
+);
+?>

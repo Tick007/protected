@@ -1,0 +1,3 @@
+<?php
+ImageJPEG($im2);
+?>

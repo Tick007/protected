@@ -1,0 +1,1291 @@
+2022/06/02 14:17:42 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:17:52 [error] [exception.ParseError] ParseError: syntax error, unexpected '$cs' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in D:\web\yii-1.1.24.a5ab20\framework\web\widgets\CTreeView.php:56
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\YiiBase.php(310): YiiBase::autoload('CTreeView', true)
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CWidgetFactory.php(146): YiiBase::import('CTreeView', true)
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TreeGroups), 'CTreeView', Array)
+#3 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(181): CBaseController->createWidget('CTreeView', Array)
+#4 D:\web\wwwroot\yii-site\html\protected\components\TreeGroups.php(65): CBaseController->widget('CTreeView', Array)
+#5 D:\web\wwwroot\yii-site\html\protected\views\nomenklatura\nomenklaturagrnew.php(27): TreeGroups->__construct('form1', 'new_group')
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#9 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): CController->renderPartial('nomenklaturagrn...', Array, true)
+#10 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(237): CController->render('nomenklaturagrn...', Array)
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionIndexgr()
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): CController->run('indexgr')
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('nomenklatura/in...')
+#22 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#24 {main}
+REQUEST_URI=/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:27:10 [error] [exception.ParseError] ParseError: syntax error, unexpected 'по' (T_STRING) in D:\web\yii-1.1.24.a5ab20\framework\web\widgets\CTreeView.php:167
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\YiiBase.php(310): YiiBase::autoload('CTreeView', true)
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CWidgetFactory.php(146): YiiBase::import('CTreeView', true)
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TreeGroups), 'CTreeView', Array)
+#3 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(181): CBaseController->createWidget('CTreeView', Array)
+#4 D:\web\wwwroot\yii-site\html\protected\components\TreeGroups.php(65): CBaseController->widget('CTreeView', Array)
+#5 D:\web\wwwroot\yii-site\html\protected\views\nomenklatura\nomenklaturagrnew.php(27): TreeGroups->__construct('form1', 'new_group')
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#9 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): CController->renderPartial('nomenklaturagrn...', Array, true)
+#10 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(237): CController->render('nomenklaturagrn...', Array)
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionIndexgr()
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): CController->run('indexgr')
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('nomenklatura/in...')
+#22 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#24 {main}
+REQUEST_URI=/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:34:07 [error] [exception.ParseError] ParseError: syntax error, unexpected 'id' (T_STRING) in D:\web\yii-1.1.24.a5ab20\framework\web\widgets\CTreeView.php:215
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\YiiBase.php(310): YiiBase::autoload('CTreeView', true)
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CWidgetFactory.php(146): YiiBase::import('CTreeView', true)
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TreeGroups), 'CTreeView', Array)
+#3 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(181): CBaseController->createWidget('CTreeView', Array)
+#4 D:\web\wwwroot\yii-site\html\protected\components\TreeGroups.php(65): CBaseController->widget('CTreeView', Array)
+#5 D:\web\wwwroot\yii-site\html\protected\views\nomenklatura\nomenklaturagrnew.php(27): TreeGroups->__construct('form1', 'new_group')
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#9 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): CController->renderPartial('nomenklaturagrn...', Array, true)
+#10 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(237): CController->render('nomenklaturagrn...', Array)
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionIndexgr()
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): CController->run('indexgr')
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('nomenklatura/in...')
+#22 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#24 {main}
+REQUEST_URI=/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:36:56 [error] [php] Use of undefined constant hasChildren - assumed 'hasChildren' (this will throw an Error in a future version of PHP) (D:\web\yii-1.1.24.a5ab20\framework\web\widgets\CTreeView.php:216)
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\widgets\CTreeView.php(176): saveDataAsHtml()
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(147): CTreeView->init()
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(181): TreeGroups->createWidget()
+#3 D:\web\wwwroot\yii-site\html\protected\components\TreeGroups.php(65): TreeGroups->widget()
+#4 D:\web\wwwroot\yii-site\html\protected\views\nomenklatura\nomenklaturagrnew.php(27): TreeGroups->__construct()
+#5 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require()
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): NomenklaturaController->renderInternal()
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): NomenklaturaController->renderFile()
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): NomenklaturaController->renderPartial()
+#9 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(237): NomenklaturaController->render()
+#10 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionIndexgr()
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): NomenklaturaController->runAction()
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): NomenklaturaController->filterAccessControl()
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): NomenklaturaController->runActionWithFilters()
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): NomenklaturaController->run()
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 D:\web\wwwroot\yii-site\html\index.php(62): CWebApplication->run()
+REQUEST_URI=/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+2022/06/02 14:57:20 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:58:31 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:58:39 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 14:59:23 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:01:10 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:03:00 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:03:00 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "jui/js/jquery-ui.min.js". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('jui/js/jquery-u...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:05:05 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:05:06 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "assets/91e2db03/jui/js/jquery-ui.min.js". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/91e2db03...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/91e2db03/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:11:29 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:12:55 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:13:09 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:13:37 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:15:54 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:16:26 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:18:21 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:21:49 [error] [php] Undefined variable: clientScript (D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\grupp_goods.php:4)
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require()
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): AdminproductsController->renderInternal()
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): AdminproductsController->renderFile()
+#3 D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\list.php(105): AdminproductsController->renderPartial()
+#4 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require()
+#5 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): AdminproductsController->renderInternal()
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): AdminproductsController->renderFile()
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): AdminproductsController->renderPartial()
+#8 D:\web\wwwroot\yii-site\html\protected\controllers\AdminproductsController.php(532): AdminproductsController->render()
+#9 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): AdminproductsController->actionGroup()
+#10 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): AdminproductsController->runAction()
+#12 D:\web\wwwroot\yii-site\html\protected\components\Controller.php(270): CFilterChain->run()
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): AdminproductsController->filterCheckAuthority()
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): AdminproductsController->filterAccessControl()
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): AdminproductsController->runActionWithFilters()
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): AdminproductsController->run()
+#22 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 D:\web\wwwroot\yii-site\html\index.php(62): CWebApplication->run()
+REQUEST_URI=/adminproducts/group/623
+2022/06/02 15:22:16 [error] [exception.CException] CException: В классе CWebApplication и его поведениях не найден метод или замыкание с именем "registerScriptFile". in D:\web\yii-1.1.24.a5ab20\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\grupp_goods.php(4): CComponent->__call('registerScriptF...', Array)
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#3 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#4 D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\list.php(105): CController->renderPartial('grupp_goods', Array)
+#5 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): CController->renderPartial('list', Array, true)
+#9 D:\web\wwwroot\yii-site\html\protected\controllers\AdminproductsController.php(532): CController->render('list', Array)
+#10 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): AdminproductsController->actionGroup()
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\web\wwwroot\yii-site\html\protected\components\Controller.php(270): CFilterChain->run()
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): Controller->filterCheckAuthority(Object(CFilterChain))
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): CController->run('group')
+#23 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('adminproducts/g...')
+#24 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#26 {main}
+REQUEST_URI=/adminproducts/group/623
+HTTP_REFERER=http://yii-site/adminproducts/group/139
+---
+2022/06/02 15:22:29 [error] [exception.CException] CException: В классе CWebApplication и его поведениях не найден метод или замыкание с именем "registerScript". in D:\web\yii-1.1.24.a5ab20\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\grupp_goods.php(4): CComponent->__call('registerScript', Array)
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#3 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#4 D:\web\wwwroot\yii-site\html\themes\easylift\views\adminproducts\list.php(105): CController->renderPartial('grupp_goods', Array)
+#5 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require('D:\\web\\wwwroot\\...')
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\web\\wwwroot\\...', Array, true)
+#7 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(872): CBaseController->renderFile('D:\\web\\wwwroot\\...', Array, true)
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(785): CController->renderPartial('list', Array, true)
+#9 D:\web\wwwroot\yii-site\html\protected\controllers\AdminproductsController.php(532): CController->render('list', Array)
+#10 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): AdminproductsController->actionGroup()
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\web\wwwroot\yii-site\html\protected\components\Controller.php(270): CFilterChain->run()
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): Controller->filterCheckAuthority(Object(CFilterChain))
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#21 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): CController->run('group')
+#23 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('adminproducts/g...')
+#24 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#26 {main}
+REQUEST_URI=/adminproducts/group/623
+HTTP_REFERER=http://yii-site/adminproducts/group/139
+---
+2022/06/02 15:23:01 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:23:27 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:24:12 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:26:09 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/02 15:26:44 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/
+---
+2022/06/02 15:26:46 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/759
+---
+2022/06/02 15:26:48 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/552
+---
+2022/06/02 15:26:53 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/818
+---
+2022/06/02 15:26:54 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:29:31 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:30:51 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:31:04 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:32:52 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:35:39 [error] [php] Undefined variable: clientScript (D:\web\wwwroot\yii-site\html\themes\easylift\views\layouts\admin.php:11)
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(126): require()
+#1 D:\web\yii-1.1.24.a5ab20\framework\web\CBaseController.php(95): AdminproductsController->renderInternal()
+#2 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(787): AdminproductsController->renderFile()
+#3 D:\web\wwwroot\yii-site\html\protected\controllers\AdminproductsController.php(532): AdminproductsController->render()
+#4 D:\web\yii-1.1.24.a5ab20\framework\web\actions\CInlineAction.php(49): AdminproductsController->actionGroup()
+#5 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(134): AdminproductsController->runAction()
+#7 D:\web\wwwroot\yii-site\html\protected\components\Controller.php(270): CFilterChain->run()
+#8 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): AdminproductsController->filterCheckAuthority()
+#9 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#12 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CInlineFilter.php(58): AdminproductsController->filterAccessControl()
+#13 D:\web\yii-1.1.24.a5ab20\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\web\yii-1.1.24.a5ab20\framework\web\CController.php(265): AdminproductsController->runActionWithFilters()
+#16 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(282): AdminproductsController->run()
+#17 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\web\wwwroot\yii-site\html\index.php(62): CWebApplication->run()
+REQUEST_URI=/adminproducts/group/922
+2022/06/02 15:35:55 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:36:13 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:38:21 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:40:01 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:40:58 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:41:33 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:41:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:43:07 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:48:04 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:48:34 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:48:38 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "jquery.1.8.3.js". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.1.8.3.js')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/jquery.1.8.3.js
+HTTP_REFERER=http://yii-site/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+---
+2022/06/02 15:49:22 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/02 15:51:29 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group?id=922&delete_product=&transfer_to_group=853&new_link_group=&delete_products=&sel_product%5B60%5D=1
+---
+2022/06/02 15:51:33 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/552
+---
+2022/06/02 15:51:36 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/853
+---
+2022/06/02 15:51:58 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group?id=853&delete_product=&transfer_to_group=922&new_link_group=&delete_products=&sel_product%5B60%5D=1
+---
+2022/06/02 15:52:01 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/552
+---
+2022/06/02 15:52:05 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/818
+---
+2022/06/02 15:52:07 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.24.a5ab20\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.24.a5ab20\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(62): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:43:13 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/
+---
+2022/06/03 08:43:13 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "favicon.ico". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yii-site/adminproducts/
+---
+2022/06/03 08:43:16 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/759
+---
+2022/06/03 08:43:20 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/552
+---
+2022/06/03 08:43:26 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/818
+---
+2022/06/03 08:43:28 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:43:36 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/product?id=60&group=922&char_filter=
+---
+2022/06/03 08:43:38 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:43:53 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:49:53 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:50:55 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:50:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/product?id=60&group=922&char_filter=
+---
+2022/06/03 08:51:02 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/922
+---
+2022/06/03 08:51:06 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/818
+---
+2022/06/03 08:51:09 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/818
+---
+2022/06/03 08:51:10 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/552
+---
+2022/06/03 08:51:16 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/759
+---
+2022/06/03 08:51:17 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/760
+---
+2022/06/03 08:51:18 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/759
+---
+2022/06/03 08:51:19 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/
+---
+2022/06/03 08:51:20 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/2
+---
+2022/06/03 08:51:23 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/139
+---
+2022/06/03 08:51:24 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:51:46 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:52:27 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:52:36 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:52:43 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:54:09 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:54:27 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:55:11 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:55:32 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:55:47 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:56:10 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:56:46 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/
+---
+2022/06/03 08:56:48 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/2
+---
+2022/06/03 08:56:52 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/139
+---
+2022/06/03 08:56:54 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:57:48 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:57:56 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:58:59 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 08:59:03 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "jquery3.min.js". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery3.min.js')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/jquery3.min.js
+HTTP_REFERER=http://yii-site/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+---
+2022/06/03 08:59:42 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:00:32 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:02:17 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:06:13 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:08:57 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:09:01 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "js/jquery-migrate.min.1.4.1.js". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-migra...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/jquery-migrate.min.1.4.1.js
+HTTP_REFERER=http://yii-site/nomenklatura/indexgr?targetitem=new_group&targetform=form1
+---
+2022/06/03 09:09:30 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 09:17:33 [error] [exception.CHttpException.404] CHttpException: Невозможно обработать запрос "themes/easylift/css/admin.css". in D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/easylift...')
+#1 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\web\wwwroot\yii-site\html\index.php(63): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/easylift/css/admin.css
+HTTP_REFERER=http://yii-site/adminproducts/group/623
+---
+2022/06/03 11:49:04 [error] [php] include(ContProtocol.php): failed to open stream: No such file or directory (D:\web\yii-1.1.25.43e386\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(1526): spl_autoload_call()
+#3 D:\web\yii-1.1.25.43e386\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionSmotrmatrixupdate()
+#4 D:\web\yii-1.1.25.43e386\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(134): NomenklaturaController->runAction()
+#6 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\web\yii-1.1.25.43e386\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\web\yii-1.1.25.43e386\framework\web\filters\CInlineFilter.php(58): NomenklaturaController->filterAccessControl()
+#9 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\web\yii-1.1.25.43e386\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\web\yii-1.1.25.43e386\framework\web\CController.php(265): NomenklaturaController->runActionWithFilters()
+#12 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): NomenklaturaController->run()
+#13 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\web\wwwroot\yii-site\html\index.php(63): CWebApplication->run()
+REQUEST_URI=/nomenklatura/smotrmatrixupdate/31
+2022/06/03 11:49:24 [error] [php] include(ContProtocol.php): failed to open stream: No such file or directory (D:\web\yii-1.1.25.43e386\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(1526): spl_autoload_call()
+#3 D:\web\yii-1.1.25.43e386\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionSmotrmatrixupdate()
+#4 D:\web\yii-1.1.25.43e386\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(134): NomenklaturaController->runAction()
+#6 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\web\yii-1.1.25.43e386\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\web\yii-1.1.25.43e386\framework\web\filters\CInlineFilter.php(58): NomenklaturaController->filterAccessControl()
+#9 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\web\yii-1.1.25.43e386\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\web\yii-1.1.25.43e386\framework\web\CController.php(265): NomenklaturaController->runActionWithFilters()
+#12 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): NomenklaturaController->run()
+#13 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\web\wwwroot\yii-site\html\index.php(63): CWebApplication->run()
+REQUEST_URI=/nomenklatura/smotrmatrixupdate/31
+2022/06/03 16:20:41 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:42 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:43 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:46 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:47 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:47 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:20:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:00 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:01 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:10 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:11 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:11 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:12 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:12 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:14 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:14 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:15 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:15 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:16 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:17 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:18 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:18 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:18 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:18 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:19 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:20 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:20 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:20 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:21 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:22 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:22 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:22 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:24 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:25 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:26 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:26 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:26 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:26 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:28 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:38 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:39 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:39 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:43 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:44 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:45 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:45 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:45 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:45 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:48 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:49 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:50 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:51 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:52 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:53 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:53 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/03 16:21:54 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:58:53 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:58:55 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:58:56 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:59:08 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:59:09 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/06 08:59:13 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'easylift.smotr_antenna' doesn't exist. Выполнявшийся SQL-запрос: SHOW FULL COLUMNS FROM `smotr_antenna`.
+2022/06/16 16:22:44 [error] [php] include(ContProtocol.php): failed to open stream: No such file or directory (D:\web\yii-1.1.25.43e386\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(1654): spl_autoload_call()
+#3 D:\web\yii-1.1.25.43e386\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionSmotrconverterupdate()
+#4 D:\web\yii-1.1.25.43e386\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(134): NomenklaturaController->runAction()
+#6 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\web\yii-1.1.25.43e386\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\web\yii-1.1.25.43e386\framework\web\filters\CInlineFilter.php(58): NomenklaturaController->filterAccessControl()
+#9 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\web\yii-1.1.25.43e386\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\web\yii-1.1.25.43e386\framework\web\CController.php(265): NomenklaturaController->runActionWithFilters()
+#12 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): NomenklaturaController->run()
+#13 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\web\wwwroot\yii-site\html\index.php(63): CWebApplication->run()
+REQUEST_URI=/nomenklatura/smotrconverterupdate/20
+2022/06/16 16:23:00 [error] [php] include(ContProtocol.php): failed to open stream: No such file or directory (D:\web\yii-1.1.25.43e386\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\web\yii-1.1.25.43e386\framework\YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 D:\web\wwwroot\yii-site\html\protected\controllers\NomenklaturaController.php(1654): spl_autoload_call()
+#3 D:\web\yii-1.1.25.43e386\framework\web\actions\CInlineAction.php(49): NomenklaturaController->actionSmotrconverterupdate()
+#4 D:\web\yii-1.1.25.43e386\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(134): NomenklaturaController->runAction()
+#6 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\web\yii-1.1.25.43e386\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\web\yii-1.1.25.43e386\framework\web\filters\CInlineFilter.php(58): NomenklaturaController->filterAccessControl()
+#9 D:\web\yii-1.1.25.43e386\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\web\yii-1.1.25.43e386\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\web\yii-1.1.25.43e386\framework\web\CController.php(265): NomenklaturaController->runActionWithFilters()
+#12 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): NomenklaturaController->run()
+#13 D:\web\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\web\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\web\wwwroot\yii-site\html\index.php(63): CWebApplication->run()
+REQUEST_URI=/nomenklatura/smotrconverterupdate/20
